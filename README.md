@@ -19,12 +19,17 @@ The player can move the snake left, rigt, up, and down as per the given directio
 Whenever the snake eats food, its length increases by one and live score is displayed on screen.
 The food appears on random position each time, either when the snake eats one or the new game is started.
 When the snake collides with itself or with any of the wall, the "Game Over" massage it displayed along with player's score.
+
 Design elements -
 
 Snake head: represented by green dot.
 Snake body: represented by red dot.
 Food: represented by an apple.
+
 Play Screen -
+
 ![UI](https://github.com/subhadeephazra/SnakeGame-2D/assets/124555668/7182f37c-6549-40ea-8aab-6449864e8ee8)
+
 Game Over -
+
 ![gameover](https://github.com/subhadeephazra/SnakeGame-2D/assets/124555668/e2827223-31c2-49b6-944f-ff67bf89d224)
