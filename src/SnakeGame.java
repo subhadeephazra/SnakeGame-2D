@@ -10,6 +10,7 @@ public class SnakeGame extends JFrame
         setVisible(true);
         pack();
         setResizable(false);
+
     }
     public static void main(String args[])
     {

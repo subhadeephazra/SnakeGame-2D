@@ -16,7 +16,7 @@ public class GameControl extends JPanel implements ActionListener
 
     Image head, body, apple;
     Timer timer;
-    int DELAY = 150;
+    int DELAY = 200;
     boolean leftdirection=true;
     boolean rightdirection=false;
     boolean updirection=false;
@@ -32,6 +32,7 @@ public class GameControl extends JPanel implements ActionListener
         setFocusable(true);
         setPreferredSize(new Dimension(HEIGHT,WIDTH));
         setBackground(Color.BLACK);
+
         initGame();
         LoadImage();
 
